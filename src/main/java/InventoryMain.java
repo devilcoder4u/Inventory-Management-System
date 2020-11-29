@@ -121,19 +121,6 @@ public class InventoryMain {
 
     }
 
-
-
-    /*    private static void displayInventory(String product){
-       System.out.println("*****************************************************");
-        for (Map.Entry<String, List<Product>> entry : inventoryMap.entrySet()) {
-            System.out.println( entry.getKey());
-            System.out.println( entry.getValue());//Returns the list of values
-        }
-        System.out.println("*****************************************************");
-    }
-
-    */
-
     public static void addProductToInventory(){
 
        Scanner sc = new Scanner(System.in);
